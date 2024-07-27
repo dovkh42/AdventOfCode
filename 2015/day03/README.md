@@ -34,6 +34,6 @@ Both parts of this puzzle are complete! They provide two gold stars: **
 
 At this point, all that is left is for you to admire your Advent calendar.
 
-If you still want to see it, you can [get your puzzle input](https://github.com/dovkh42/AdventOfCode/blob/main/aoc2015/day03/day03_input.txt).
+If you still want to see it, you can [get your puzzle input](https://github.com/dovkh42/AdventOfCode/blob/main/2015/day03/day03_input.txt).
 
 You can also [Shareon Twitter Mastodon] this puzzle.
