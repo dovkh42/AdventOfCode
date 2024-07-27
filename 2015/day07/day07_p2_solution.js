@@ -45,8 +45,6 @@ rl.on('line', (line) => {
 });
 
 rl.on('close', () => {
-    console.log('Finished reading file.');
-
     const isNumber = (value) => {
         return typeof value === 'number' && !isNaN(value);
     }
