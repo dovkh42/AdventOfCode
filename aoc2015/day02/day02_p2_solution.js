@@ -20,5 +20,5 @@ rl.on('line', (line) => {
 });
 
 rl.on('close', () => {
-    console.log(`Result is: ${result}`);
+    console.log(`Answer is: ${result}`);
 });
