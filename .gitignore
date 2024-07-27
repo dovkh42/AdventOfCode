@@ -2,6 +2,9 @@
 .vs
 .vscode
 
+# AOC Files
+**/*input*.txt
+
 # Logs
 logs
 *.log
