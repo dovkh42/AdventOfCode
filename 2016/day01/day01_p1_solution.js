@@ -37,6 +37,7 @@ for (const line of lines) {
     } else {
         nextDirection = directionsMap[currDirection][direction];
     }
+
     switch (nextDirection) {
         case 'N':
             baseY -= distance;
