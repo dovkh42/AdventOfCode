@@ -13,9 +13,9 @@ with open('input.txt', 'r') as file:
         lhs_array.append(lhs)
         rhs_map[rhs] += 1
 
-sum = 0
+res = 0
 for i in range(len(lhs_array)):
-    sum += rhs_map[lhs_array[i]]*lhs_array[i]
+    res += rhs_map[lhs_array[i]]*lhs_array[i]
 
 
-print(sum)
+print(res)

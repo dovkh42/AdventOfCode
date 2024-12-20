@@ -1,8 +1,6 @@
 from array import array
 
-lhs_array = array('i', [])
-rhs_array = array('i', [])
-
+lhs_array, rhs_array = array('i', []), array('i', [])
 
 with open('input.txt', 'r') as file:
     for line_num, line in enumerate(file):
@@ -15,9 +13,8 @@ with open('input.txt', 'r') as file:
 lhs_array = array('i', sorted(lhs_array))
 rhs_array = array('i', sorted(rhs_array)) 
 
-sum = 0
+res = 0
 for i in range(len(lhs_array)):
-    sum += abs(lhs_array[i]-rhs_array[i])
+    res += abs(lhs_array[i]-rhs_array[i])
 
-
-print(sum)
+print(res)
