@@ -4,7 +4,6 @@ from collections import defaultdict
 lhs_array = array('i')
 rhs_map = defaultdict(int)
 
-
 with open('input.txt', 'r') as file:
     for line_num, line in enumerate(file):
         clean_line = line.strip()
@@ -16,6 +15,5 @@ with open('input.txt', 'r') as file:
 res = 0
 for i in range(len(lhs_array)):
     res += rhs_map[lhs_array[i]]*lhs_array[i]
-
 
 print(res)

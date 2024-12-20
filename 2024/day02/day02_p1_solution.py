@@ -15,5 +15,4 @@ with open('input.txt', 'r') as file:
         if isValidList(num_list):
             counter += 1
 
-
 print(counter)
