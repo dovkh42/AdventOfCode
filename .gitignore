@@ -10,3 +10,7 @@ node_modules/
 
 # python
 **/myenv
+
+
+# draft files
+**/draft.*
