@@ -3,13 +3,8 @@ with open('input.txt', 'rt') as file:
 
     for line in file:
         a, b = line.strip().split('-')
-        if a not in pc_map:
-            pc_map[a] = []
-        if b not in pc_map:  
-            pc_map[b] = []
-
-        pc_map[a].append(b)
-        pc_map[b].append(a)
+        pc_map.setdefault(a, []).append(b)
+        pc_map.setdefault(b, []).append(a)
 
 result = set()
 for first, first_links in pc_map.items():
